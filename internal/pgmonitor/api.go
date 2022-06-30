@@ -22,7 +22,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/logging"
+	"github.com/adifri/postgres-operator/v5/internal/logging"
 )
 
 type Executor func(

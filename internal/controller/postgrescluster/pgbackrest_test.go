@@ -52,12 +52,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
-	"github.com/crunchydata/postgres-operator/v5/internal/naming"
-	"github.com/crunchydata/postgres-operator/v5/internal/pgbackrest"
-	"github.com/crunchydata/postgres-operator/v5/internal/pki"
-	"github.com/crunchydata/postgres-operator/v5/internal/testing/require"
-	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/adifri/postgres-operator/v5/internal/initialize"
+	"github.com/adifri/postgres-operator/v5/internal/naming"
+	"github.com/adifri/postgres-operator/v5/internal/pgbackrest"
+	"github.com/adifri/postgres-operator/v5/internal/pki"
+	"github.com/adifri/postgres-operator/v5/internal/testing/require"
+	"github.com/adifri/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 var testCronSchedule string = "*/15 * * * *"

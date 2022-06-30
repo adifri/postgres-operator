@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/adifri/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // defaultFromEnv reads the environment variable key when value is empty.

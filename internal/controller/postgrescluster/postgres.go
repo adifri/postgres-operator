@@ -33,15 +33,15 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
-	"github.com/crunchydata/postgres-operator/v5/internal/logging"
-	"github.com/crunchydata/postgres-operator/v5/internal/naming"
-	"github.com/crunchydata/postgres-operator/v5/internal/pgaudit"
-	"github.com/crunchydata/postgres-operator/v5/internal/postgis"
-	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
-	pgpassword "github.com/crunchydata/postgres-operator/v5/internal/postgres/password"
-	"github.com/crunchydata/postgres-operator/v5/internal/util"
-	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/adifri/postgres-operator/v5/internal/initialize"
+	"github.com/adifri/postgres-operator/v5/internal/logging"
+	"github.com/adifri/postgres-operator/v5/internal/naming"
+	"github.com/adifri/postgres-operator/v5/internal/pgaudit"
+	"github.com/adifri/postgres-operator/v5/internal/postgis"
+	"github.com/adifri/postgres-operator/v5/internal/postgres"
+	pgpassword "github.com/adifri/postgres-operator/v5/internal/postgres/password"
+	"github.com/adifri/postgres-operator/v5/internal/util"
+	"github.com/adifri/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // generatePostgresUserSecret returns a Secret containing a password and

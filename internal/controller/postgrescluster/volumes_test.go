@@ -34,13 +34,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/controller/runtime"
-	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
-	"github.com/crunchydata/postgres-operator/v5/internal/naming"
-	"github.com/crunchydata/postgres-operator/v5/internal/testing/cmp"
-	"github.com/crunchydata/postgres-operator/v5/internal/testing/events"
-	"github.com/crunchydata/postgres-operator/v5/internal/testing/require"
-	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/adifri/postgres-operator/v5/internal/controller/runtime"
+	"github.com/adifri/postgres-operator/v5/internal/initialize"
+	"github.com/adifri/postgres-operator/v5/internal/naming"
+	"github.com/adifri/postgres-operator/v5/internal/testing/cmp"
+	"github.com/adifri/postgres-operator/v5/internal/testing/events"
+	"github.com/adifri/postgres-operator/v5/internal/testing/require"
+	"github.com/adifri/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 func TestHandlePersistentVolumeClaimError(t *testing.T) {

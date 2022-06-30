@@ -19,8 +19,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/logging"
-	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
+	"github.com/adifri/postgres-operator/v5/internal/logging"
+	"github.com/adifri/postgres-operator/v5/internal/postgres"
 )
 
 // When the pgAudit shared library is not loaded, the extension cannot be

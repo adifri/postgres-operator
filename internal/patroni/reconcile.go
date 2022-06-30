@@ -23,12 +23,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
-	"github.com/crunchydata/postgres-operator/v5/internal/naming"
-	"github.com/crunchydata/postgres-operator/v5/internal/pgbackrest"
-	"github.com/crunchydata/postgres-operator/v5/internal/pki"
-	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
-	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/adifri/postgres-operator/v5/internal/initialize"
+	"github.com/adifri/postgres-operator/v5/internal/naming"
+	"github.com/adifri/postgres-operator/v5/internal/pgbackrest"
+	"github.com/adifri/postgres-operator/v5/internal/pki"
+	"github.com/adifri/postgres-operator/v5/internal/postgres"
+	"github.com/adifri/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // ClusterBootstrapped returns a bool indicating whether or not Patroni has successfully

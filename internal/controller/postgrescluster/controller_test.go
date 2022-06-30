@@ -41,10 +41,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/yaml"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/naming"
-	"github.com/crunchydata/postgres-operator/v5/internal/testing/require"
-	"github.com/crunchydata/postgres-operator/v5/internal/util"
-	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/adifri/postgres-operator/v5/internal/naming"
+	"github.com/adifri/postgres-operator/v5/internal/testing/require"
+	"github.com/adifri/postgres-operator/v5/internal/util"
+	"github.com/adifri/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 func TestDeleteControlled(t *testing.T) {

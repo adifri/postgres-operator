@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/rand"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
-	"github.com/crunchydata/postgres-operator/v5/internal/naming"
+	"github.com/adifri/postgres-operator/v5/internal/initialize"
+	"github.com/adifri/postgres-operator/v5/internal/naming"
 )
 
 var tmpDirSizeLimit = resource.MustParse("16Mi")

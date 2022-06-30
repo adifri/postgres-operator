@@ -17,4 +17,4 @@ package naming
 
 import "go.opentelemetry.io/otel"
 
-var tracer = otel.Tracer("github.com/crunchydata/postgres-operator/v5/naming")
+var tracer = otel.Tracer("github.com/adifri/postgres-operator/v5/naming")

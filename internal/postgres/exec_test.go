@@ -27,7 +27,7 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/testing/require"
+	"github.com/adifri/postgres-operator/v5/internal/testing/require"
 )
 
 // This example demonstrates how Executor can work with exec.Cmd.

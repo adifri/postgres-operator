@@ -24,7 +24,7 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/testing/cmp"
+	"github.com/adifri/postgres-operator/v5/internal/testing/cmp"
 )
 
 func TestCreateDatabasesInPostgreSQL(t *testing.T) {

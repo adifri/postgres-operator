@@ -16,7 +16,7 @@
 package pgbouncer
 
 import (
-	"github.com/crunchydata/postgres-operator/v5/internal/testing/cmp"
+	"github.com/adifri/postgres-operator/v5/internal/testing/cmp"
 )
 
 // marshalMatches converts actual to YAML and compares that to expected.

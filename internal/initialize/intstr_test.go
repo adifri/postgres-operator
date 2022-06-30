@@ -21,7 +21,7 @@ import (
 	"gotest.tools/v3/assert"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
+	"github.com/adifri/postgres-operator/v5/internal/initialize"
 )
 
 func TestIntOrStringInt32(t *testing.T) {

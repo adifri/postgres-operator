@@ -36,10 +36,10 @@ import (
 	crclient "sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/envtest"
 
-	"github.com/crunchydata/postgres-operator/v5/internal/controller/postgrescluster"
-	"github.com/crunchydata/postgres-operator/v5/internal/controller/runtime"
-	"github.com/crunchydata/postgres-operator/v5/internal/naming"
-	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/adifri/postgres-operator/v5/internal/controller/postgrescluster"
+	"github.com/adifri/postgres-operator/v5/internal/controller/runtime"
+	"github.com/adifri/postgres-operator/v5/internal/naming"
+	"github.com/adifri/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 func TestGenerateHeader(t *testing.T) {
