@@ -27,13 +27,13 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/initialize"
-	"github.com/crunchydata/postgres-operator/internal/logging"
-	"github.com/crunchydata/postgres-operator/internal/naming"
-	"github.com/crunchydata/postgres-operator/internal/pgadmin"
-	"github.com/crunchydata/postgres-operator/internal/postgres"
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/internal/config"
+	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
+	"github.com/crunchydata/postgres-operator/v5/internal/logging"
+	"github.com/crunchydata/postgres-operator/v5/internal/naming"
+	"github.com/crunchydata/postgres-operator/v5/internal/pgadmin"
+	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // reconcilePGAdmin writes the objects necessary to run a pgAdmin Pod.

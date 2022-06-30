@@ -23,12 +23,12 @@ import (
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/crunchydata/postgres-operator/internal/config"
-	"github.com/crunchydata/postgres-operator/internal/initialize"
-	"github.com/crunchydata/postgres-operator/internal/naming"
-	"github.com/crunchydata/postgres-operator/internal/pki"
-	"github.com/crunchydata/postgres-operator/internal/postgres"
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/internal/config"
+	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
+	"github.com/crunchydata/postgres-operator/v5/internal/naming"
+	"github.com/crunchydata/postgres-operator/v5/internal/pki"
+	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // AddRepoVolumesToPod adds pgBackRest repository volumes to the provided Pod template spec, while

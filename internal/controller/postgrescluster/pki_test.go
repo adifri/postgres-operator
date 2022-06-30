@@ -33,10 +33,10 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/crunchydata/postgres-operator/internal/naming"
-	"github.com/crunchydata/postgres-operator/internal/pki"
-	"github.com/crunchydata/postgres-operator/internal/testing/require"
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/internal/naming"
+	"github.com/crunchydata/postgres-operator/v5/internal/pki"
+	"github.com/crunchydata/postgres-operator/v5/internal/testing/require"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // TestReconcileCerts tests the proper reconciliation of the root ca certificate

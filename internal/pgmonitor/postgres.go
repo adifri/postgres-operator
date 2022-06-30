@@ -21,9 +21,9 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/crunchydata/postgres-operator/internal/logging"
-	"github.com/crunchydata/postgres-operator/internal/postgres"
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/internal/logging"
+	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 const (

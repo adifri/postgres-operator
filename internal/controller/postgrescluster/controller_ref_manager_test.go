@@ -27,8 +27,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/crunchydata/postgres-operator/internal/naming"
-	"github.com/crunchydata/postgres-operator/internal/testing/require"
+	"github.com/crunchydata/postgres-operator/v5/internal/naming"
+	"github.com/crunchydata/postgres-operator/v5/internal/testing/require"
 )
 
 func TestManageControllerRefs(t *testing.T) {

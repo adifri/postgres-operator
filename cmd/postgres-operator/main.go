@@ -26,11 +26,11 @@ import (
 	cruntime "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/crunchydata/postgres-operator/internal/controller/postgrescluster"
-	"github.com/crunchydata/postgres-operator/internal/controller/runtime"
-	"github.com/crunchydata/postgres-operator/internal/logging"
-	"github.com/crunchydata/postgres-operator/internal/upgradecheck"
-	"github.com/crunchydata/postgres-operator/internal/util"
+	"github.com/crunchydata/postgres-operator/v5/internal/controller/postgrescluster"
+	"github.com/crunchydata/postgres-operator/v5/internal/controller/runtime"
+	"github.com/crunchydata/postgres-operator/v5/internal/logging"
+	"github.com/crunchydata/postgres-operator/v5/internal/upgradecheck"
+	"github.com/crunchydata/postgres-operator/v5/internal/util"
 )
 
 var versionString string

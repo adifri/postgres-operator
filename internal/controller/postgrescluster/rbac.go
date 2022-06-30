@@ -22,10 +22,10 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	rbacv1 "k8s.io/api/rbac/v1"
 
-	"github.com/crunchydata/postgres-operator/internal/initialize"
-	"github.com/crunchydata/postgres-operator/internal/naming"
-	"github.com/crunchydata/postgres-operator/internal/patroni"
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
+	"github.com/crunchydata/postgres-operator/v5/internal/naming"
+	"github.com/crunchydata/postgres-operator/v5/internal/patroni"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // reconcileRBACResources creates Roles, RoleBindings, and ServiceAccounts for

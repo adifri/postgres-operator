@@ -21,7 +21,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/crunchydata/postgres-operator/internal/initialize"
+	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
 )
 
 const (

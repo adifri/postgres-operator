@@ -24,7 +24,7 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/crunchydata/postgres-operator/internal/postgres"
+	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
 )
 
 func TestEnableInPostgreSQL(t *testing.T) {

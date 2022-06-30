@@ -25,7 +25,7 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/crunchydata/postgres-operator/internal/testing/require"
+	"github.com/crunchydata/postgres-operator/v5/internal/testing/require"
 )
 
 func TestStanzaCreateOrUpgrade(t *testing.T) {

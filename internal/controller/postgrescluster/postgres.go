@@ -33,15 +33,15 @@ import (
 	"k8s.io/apimachinery/pkg/util/validation/field"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/crunchydata/postgres-operator/internal/initialize"
-	"github.com/crunchydata/postgres-operator/internal/logging"
-	"github.com/crunchydata/postgres-operator/internal/naming"
-	"github.com/crunchydata/postgres-operator/internal/pgaudit"
-	"github.com/crunchydata/postgres-operator/internal/postgis"
-	"github.com/crunchydata/postgres-operator/internal/postgres"
-	pgpassword "github.com/crunchydata/postgres-operator/internal/postgres/password"
-	"github.com/crunchydata/postgres-operator/internal/util"
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
+	"github.com/crunchydata/postgres-operator/v5/internal/logging"
+	"github.com/crunchydata/postgres-operator/v5/internal/naming"
+	"github.com/crunchydata/postgres-operator/v5/internal/pgaudit"
+	"github.com/crunchydata/postgres-operator/v5/internal/postgis"
+	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
+	pgpassword "github.com/crunchydata/postgres-operator/v5/internal/postgres/password"
+	"github.com/crunchydata/postgres-operator/v5/internal/util"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // generatePostgresUserSecret returns a Secret containing a password and

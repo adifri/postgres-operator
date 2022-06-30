@@ -20,7 +20,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/crunchydata/postgres-operator/internal/logging"
+	"github.com/crunchydata/postgres-operator/v5/internal/logging"
 )
 
 // CreateDatabasesInPostgreSQL calls exec to create databases that do not exist

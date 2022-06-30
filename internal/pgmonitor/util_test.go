@@ -20,7 +20,7 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 func TestExporterEnabled(t *testing.T) {

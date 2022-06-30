@@ -21,7 +21,7 @@ import (
 
 	"gotest.tools/v3/assert"
 
-	"github.com/crunchydata/postgres-operator/internal/initialize"
+	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
 )
 
 func TestRestrictedPodSecurityContext(t *testing.T) {

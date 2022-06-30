@@ -23,7 +23,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/internal/logging"
+	"github.com/crunchydata/postgres-operator/v5/internal/logging"
 )
 
 // API defines a general interface for interacting with the Patroni API.

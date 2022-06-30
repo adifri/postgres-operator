@@ -18,8 +18,8 @@ package pgbackrest
 import (
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/internal/postgres"
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 // PostgreSQL populates outParameters with any settings needed to run pgBackRest.

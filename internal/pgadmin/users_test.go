@@ -28,9 +28,9 @@ import (
 	"gotest.tools/v3/assert"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/crunchydata/postgres-operator/internal/initialize"
-	"github.com/crunchydata/postgres-operator/internal/testing/require"
-	"github.com/crunchydata/postgres-operator/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
+	"github.com/crunchydata/postgres-operator/v5/internal/initialize"
+	"github.com/crunchydata/postgres-operator/v5/internal/testing/require"
+	"github.com/crunchydata/postgres-operator/v5/pkg/apis/postgres-operator.crunchydata.com/v1beta1"
 )
 
 func TestWriteUsersInPGAdmin(t *testing.T) {

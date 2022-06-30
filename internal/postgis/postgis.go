@@ -19,8 +19,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/crunchydata/postgres-operator/internal/logging"
-	"github.com/crunchydata/postgres-operator/internal/postgres"
+	"github.com/crunchydata/postgres-operator/v5/internal/logging"
+	"github.com/crunchydata/postgres-operator/v5/internal/postgres"
 )
 
 // EnableInPostgreSQL installs triggers for the following extensions into every database:
